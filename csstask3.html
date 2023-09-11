@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Alternating Row Colors and Title Row</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #3498db; 
+            color: #fff; 
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Company A</td>
+            <td>John Doe</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Company B</td>
+            <td>Jane Smith</td>
+            <td>Canada</td>
+        </tr>
+        <tr>
+            <td>Company C</td>
+            <td>Robert Johnson</td>
+            <td>UK</td>
+        </tr>
+        <tr>
+            <td>Company D</td>
+            <td>Maria Garcia</td>
+            <td>Spain</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #form-container {
+            text-align: center;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        form {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="form-container">
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <td>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required><br><br>
+        </td>
+        <td>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" required><br><br>
+        </td>
+        <td>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+        </td>
+        <td>
+            <label for="reenter_password">Reenter Password:</label>
+            <input type="password" id="reenter_password" name="reenter_password" required><br><br>
+        </td>
+        <td>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+        </td>
+        <td>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br><br>
+        </td>
+        <td>
+            <label for="phone_number">Phone Number:</label>
+            <input type="tel" id="phone_number" name="phone_number" required><br><br>
+        </td>
+        <td>
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea><br><br>
+        </td>
+        <td>
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" required><br><br>
+        </td>
+        <td>
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country" required><br><br>
+        </td>
+        <td>
+            <label>languages_known:</label>
+            <input type="radio" id="ENGLISH" name="languages_known" value="ENGLISH">
+            <label for="ENGLISH">ENGLISH</label>
+            <input type="radio" id="KANNADA" name="languages_known" value="KANNADA">
+            <label for="KANNADA">KANNADA</label>
+            <input type="radio" id="HINDI" name="languages_known" value="HINDI">
+            <label for="HINDI">HINDI</label>
+            <br><br>
+        </td>
+        <td>
+            <input type="checkbox" id="declaration" name="declaration" required>
+            <label for="declaration">I hereby declare that all the given values are true.</label><br><br>
+        </td>
+        <td>
+            <a href="web_site_link">Login to Website</a><br><br>
+        </td>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
+
+
